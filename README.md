@@ -38,9 +38,11 @@ npm run preview
 
 - [ ] Initialise tailwind setup
 - [ ] Dark mode
+- [ ] Animations
 - [ ] Components
   - [ ] Input Components
   - [ ] Cards
   - [ ] Buttons
 - [ ] Optimize the components
 - [ ] Props for changing the styles
+- [ ] Add Unit tests
