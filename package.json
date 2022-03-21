@@ -1,0 +1,26 @@
+{
+  "name": "t",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "concurrently \"npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch\", \"vite\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/tailwindcss": "^3.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@tailwindcss/ui": "^0.7.2",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "concurrently": "^7.0.0",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
