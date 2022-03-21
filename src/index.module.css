@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: theme('fontFamily.sans');
+  font-weight: theme('fontWeight.light');
+}
+
+.App {
+  font-size: theme('fontSize.2xl');
+}

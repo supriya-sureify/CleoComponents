@@ -36,7 +36,7 @@ npm run preview
 
 ## Todo
 
-- [ ] Initialise tailwind setup
+- [x] Initialise tailwind setup
 - [ ] Dark mode
 - [ ] Animations
 - [ ] Components
